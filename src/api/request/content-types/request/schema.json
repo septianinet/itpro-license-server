@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "requests",
+  "info": {
+    "singularName": "request",
+    "pluralName": "requests",
+    "displayName": "Request"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customer_name": {
+      "type": "string"
+    },
+    "tanggal": {
+      "type": "date"
+    },
+    "serial_numbers": {
+      "type": "string"
+    },
+    "item_type": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "eval_reason": {
+      "type": "text"
+    }
+  }
+}
